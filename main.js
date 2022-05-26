@@ -5,7 +5,7 @@ let array = ["apple", "banana", "orange",];
 display(array);
 function display(array) {
     list.innerHTML = "";
-    if(array.length===0){
+    if(array.length=== 0){
     newLi = document.createElement("li");
     newLi.textContent = "no result found!";
     list.append(newLi);
